@@ -1,7 +1,7 @@
 from __future__ import annotations
 import seaborn as sns
 import matplotlib.pyplot as plt
-import unifrom
+from . import unifrom
 import math
 import numpy as np
 import scipy.stats as stat
