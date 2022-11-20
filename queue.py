@@ -51,3 +51,6 @@ class Simulation:
 
 if __name__ == '__main__':
     s = Simulation()
+
+    for _ in range(10):
+        s.advance_time()
