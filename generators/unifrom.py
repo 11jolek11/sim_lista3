@@ -18,7 +18,7 @@ class LCG:
         cls.x = seed
 
     @classmethod
-    def generate(cls) -> int:
+    def generate(cls) -> float:
         # random
         cls.x = (cls.a * cls.x + cls.c) % cls.m
         return cls.x
