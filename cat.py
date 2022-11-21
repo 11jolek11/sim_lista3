@@ -78,7 +78,7 @@ def z1_helper(half_life: int | float) -> list[int]:
     # F(t) = 1-e^(-lambda*t)
 
     # http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/meanlif.html
-    _lambda = math.log(2) / half_life  # ln
+    _lambda = math.log(2) / half_life  
     data: list[int] = []
     for i in range(20000):
         t = y = x = 0
